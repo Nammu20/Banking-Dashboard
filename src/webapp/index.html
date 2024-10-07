@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking Dashboard</title>
+</head>
+<body>
+<!-- Background Image -->
+<img src="img/bank.jpg" alt="Bank Image" class="background-image">
+
+<!-- Overlay Content -->
+<div class="overlay">
+    <div class="container">
+        <h1>Banking Dashboard</h1>
+        <div class="balance">
+            <h2>Current Balance: <span id="balance">$1,000</span></h2>
+        </div>
+        <div class="deposit">
+            <input type="number" id="depositAmount" placeholder="Deposit Amount">
+            <button id="depositButton">Deposit</button>
+        </div>
+        <div class="withdraw">
+            <input type="number" id="withdrawAmount" placeholder="Withdrawal Amount">
+            <button id="withdrawButton">Withdraw</button>
+        </div>
+        <footer>
+            <p>Contact: info@smartbanking.com</p>
+        </footer>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
